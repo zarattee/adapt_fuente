@@ -1,0 +1,113 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP8266:ESP-12F U?
+U 1 1 5F99FAEE
+P 2150 1800
+F 0 "U?" H 2150 2565 50  0000 C CNN
+F 1 "ESP-12F" H 2150 2474 50  0000 C CNN
+F 2 "" H 2150 1800 50  0001 C CNN
+F 3 "" H 2150 1800 50  0001 C CNN
+	1    2150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1500 1000 1500
+Wire Wire Line
+	1250 1600 1000 1600
+Wire Wire Line
+	1250 1700 1000 1700
+Wire Wire Line
+	1250 1800 1000 1800
+Wire Wire Line
+	3300 1500 3050 1500
+Wire Wire Line
+	3300 1600 3050 1600
+Wire Wire Line
+	3300 1700 3050 1700
+Wire Wire Line
+	3300 1800 3050 1800
+Wire Wire Line
+	3300 1900 3050 1900
+Wire Wire Line
+	3300 2000 3050 2000
+Wire Wire Line
+	3300 2100 3050 2100
+Wire Wire Line
+	3050 2200 3150 2200
+Wire Wire Line
+	3150 2200 3150 2650
+$Comp
+L power:GND #PWR?
+U 1 1 5F9A4013
+P 3150 2650
+F 0 "#PWR?" H 3150 2400 50  0001 C CNN
+F 1 "GND" H 3155 2477 50  0000 C CNN
+F 2 "" H 3150 2650 50  0001 C CNN
+F 3 "" H 3150 2650 50  0001 C CNN
+	1    3150 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2200 1150 2200
+Wire Wire Line
+	1150 1100 1150 2200
+$Comp
+L power:VCC #PWR?
+U 1 1 5F9A487E
+P 1150 1100
+F 0 "#PWR?" H 1150 950 50  0001 C CNN
+F 1 "VCC" H 1165 1273 50  0000 C CNN
+F 2 "" H 1150 1100 50  0001 C CNN
+F 3 "" H 1150 1100 50  0001 C CNN
+	1    1150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1900 1000 1900
+Wire Wire Line
+	1250 2000 1000 2000
+Wire Wire Line
+	1250 2100 1000 2100
+Wire Wire Line
+	1900 2700 1900 2800
+Wire Wire Line
+	1900 2800 1650 2800
+Wire Wire Line
+	1650 2900 2000 2900
+Wire Wire Line
+	2000 2900 2000 2700
+Wire Wire Line
+	1650 3000 2100 3000
+Wire Wire Line
+	2100 3000 2100 2700
+Wire Wire Line
+	2400 2700 2400 2800
+Wire Wire Line
+	2400 2800 2650 2800
+Wire Wire Line
+	2650 2900 2300 2900
+Wire Wire Line
+	2300 2900 2300 2700
+Wire Wire Line
+	2650 3000 2200 3000
+Wire Wire Line
+	2200 3000 2200 2700
+Wire Notes Line
+	3950 500  3950 3350
+Wire Notes Line
+	3950 3350 450  3350
+$EndSCHEMATC

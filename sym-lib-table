@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name Connector)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector.lib)(options "")(descr ""))
+  (lib (name Connector_Generic)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name Connector_Generic_MountingPin)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_MountingPin.lib)(options "")(descr ""))
+  (lib (name Connector_Generic_Shielded)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Connector_Generic_Shielded.lib)(options "")(descr ""))
+  (lib (name Converter_ACDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_ACDC.lib)(options "")(descr ""))
+  (lib (name Converter_DCDC)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Converter_DCDC.lib)(options "")(descr ""))
+  (lib (name CPLD_Altera)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Altera.lib)(options "")(descr ""))
+  (lib (name CPLD_Microchip)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Microchip.lib)(options "")(descr ""))
+  (lib (name CPLD_Xilinx)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPLD_Xilinx.lib)(options "")(descr ""))
+  (lib (name CPU)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU.lib)(options "")(descr ""))
+  (lib (name CPU_NXP_6800)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/CPU_NXP_6800.lib)(options "")(descr ""))
+)
